@@ -28,7 +28,6 @@ with open(os.devnull, 'w') as DEVNULL:
                 print(f"{color.GREEN}PF{color.END} -> {addr}")
 
                 
-            
         except sp.CalledProcessError:
             print(f"{color.RED}ERROR{color.END} -> {addr}")
     
